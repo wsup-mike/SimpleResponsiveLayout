@@ -34,11 +34,11 @@ const App = () => {
             <Text>Box 4</Text>
           </View>
         </View>
-        <View style={styles.box}>
+        {/* <View style={styles.box}> // This box never appears! Previous items at their % already take up all available space!
           <View style={styles.inner}>
             <Text>Box 5</Text>
           </View>
-        </View>
+        </View> */}
       </View>
     )
   }
