@@ -16,9 +16,13 @@ const App = () => {
       <View style={styles.boxContainer}>
         <View style={styles.box}>
           <View style={styles.inner}>
-
+            <Text>Box 1</Text>
           </View>
-
+        </View>
+        <View style={styles.box}>
+          <View style={styles.inner}>
+            <Text>Box 2</Text>
+          </View>
         </View>
       </View>
     )
@@ -66,6 +70,8 @@ const styles = StyleSheet.create({
   inner: {
     flex: 1,
     backgroundColor: 'yellow',
+    alignItems: 'center',
+    justifyContent: 'center',
   }
 
 });
