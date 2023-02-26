@@ -1,6 +1,7 @@
 # SimpleResponsiveLayout
 
 A simple tutorial follow for designing responsive layouts in Android / iOS devices
+
 Credit to: https://www.youtube.com/watch?v=eLv1ilIRxNA&list=WL&index=32
 
 Basic React Native CLI project (Minimal dependencies)
