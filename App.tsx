@@ -46,15 +46,18 @@ const styles = StyleSheet.create({
     width: '100%',
     backgroundColor: 'red',
     height: '85%',
-    alignItems: 'center',
-    justifyContent: 'center',
+    // alignItems: 'center', //DO NOT add this so we can be RESPONSIVE
+    // justifyContent: 'center', // SAME! DO NOT Add this so we can be responsive!
     padding: 5, //padding around each box
     flexDirection: 'row', // to line up content inside in row fashion horizontally
     flexWrap: 'wrap', // when content inside is too much for 1 line, then additional ones will wrap to next line underneath
   },
 
   box: {
-    
+    width: '50%', // at most each box will take up half width of entire screen
+    height: '50%', // at most each box is no more than half of 'available' height (along with Header)
+    padding: 5, // to add some space around each box
+    backgroundColor: 'green',
   }
 
 });
