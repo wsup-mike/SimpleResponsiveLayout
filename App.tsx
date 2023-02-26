@@ -15,6 +15,9 @@ const App = () => {
     return (
       <View style={styles.boxContainer}>
         <View style={styles.box}>
+          <View style={styles.inner}>
+
+          </View>
 
         </View>
       </View>
@@ -58,7 +61,7 @@ const styles = StyleSheet.create({
     height: '50%', // at most each box is no more than half of 'available' height (along with Header)
     padding: 5, // to add some space around each box
     backgroundColor: 'green',
-  }
+  },
 
 });
 
