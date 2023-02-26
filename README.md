@@ -8,6 +8,7 @@ To understand how to properly position a parent container on screen and to wrap 
 Also to understand how to apply styling that will allow 'items' to wrap to next line in 'flex row' fashion.
 
 Android result shown here:
+
 ![image](https://user-images.githubusercontent.com/40747156/221429601-9d727b2f-da3b-4cd9-997a-8e29adea706d.png)
 
 
