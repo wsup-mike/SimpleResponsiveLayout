@@ -1,4 +1,4 @@
-# SimpleResponsiveLayout
+# Setting up a Responsive Layout when desiging Responsive UI Layouts for Android and iOS (React Native)
 
 A simple tutorial follow for designing responsive layouts in Android / iOS devices
 
