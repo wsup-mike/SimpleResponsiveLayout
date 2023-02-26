@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
   header: {
     width: '100%',
     height: '15%',
+    backgroundColor: '#c8c8c8',
   }
 });
 
