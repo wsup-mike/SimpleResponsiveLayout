@@ -34,6 +34,11 @@ const App = () => {
             <Text>Box 4</Text>
           </View>
         </View>
+        <View style={styles.box}>
+          <View style={styles.inner}>
+            <Text>Box 5</Text>
+          </View>
+        </View>
       </View>
     )
   }
