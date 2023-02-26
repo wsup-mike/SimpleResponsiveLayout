@@ -11,6 +11,14 @@ const App = () => {
     )
   }
 
+  const Box = () => {
+    return (
+      <View style={styles.boxContainer}>
+        <Text>A box!</Text>
+      </View>
+    )
+  }
+
   return (
     <SafeAreaView style={styles.container}>
       <Header />
@@ -27,6 +35,13 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '15%',
     backgroundColor: '#c8c8c8',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+
+  boxContainer: {
+    width: '100%',
+    backgroundColor: 'red',
   }
 });
 
