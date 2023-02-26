@@ -63,6 +63,11 @@ const styles = StyleSheet.create({
     backgroundColor: 'green',
   },
 
+  inner: {
+    flex: 1,
+    backgroundColor: 'yellow',
+  }
+
 });
 
 export default App;
